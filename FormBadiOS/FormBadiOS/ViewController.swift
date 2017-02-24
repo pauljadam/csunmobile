@@ -10,10 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var errorText: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    @IBAction func submitForm(_ sender: Any) {
+        errorText.isHidden = false
+    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
