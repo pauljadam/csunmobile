@@ -29,7 +29,11 @@ class ViewController: UIViewController {
         errorText.isHidden = false
     }
 
+    @IBAction func resetForm(_ sender: Any) {
+        errorText.isHidden = true
 
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
