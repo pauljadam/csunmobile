@@ -24,6 +24,7 @@
 
     <TextView
         android:text="Phone"
+        android:labelFor="@id/editText4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView4"
@@ -98,16 +99,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/editText4"
-        android:layout_alignBaseline="@+id/textView4"
-        android:layout_alignBottom="@+id/textView4"
-        android:layout_alignStart="@+id/editText3" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
         android:hint="Last"
         android:ems="4"
         android:id="@+id/editText2"
@@ -116,7 +107,7 @@
         android:layout_toEndOf="@+id/editText" />
 
     <TextView
-        android:textColor="@android:color/holo_red_light"
+        android:textColor="@android:color/holo_red_dark"
         android:visibility="invisible"
         android:text="Errors in the form!"
         android:layout_width="wrap_content"
@@ -136,4 +127,14 @@
         android:layout_alignBaseline="@+id/textView3"
         android:layout_alignBottom="@+id/textView3"
         android:layout_alignStart="@+id/editText4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignStart="@+id/editText3" />
 </RelativeLayout>
