@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCA6AB051E65394500D49B4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6AB041E65394500D49B4C /* AppDelegate.swift */; };
+		BCA6AB071E65394500D49B4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6AB061E65394500D49B4C /* ViewController.swift */; };
+		BCA6AB0A1E65394500D49B4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA6AB081E65394500D49B4C /* Main.storyboard */; };
+		BCA6AB0C1E65394500D49B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA6AB0B1E65394500D49B4C /* Assets.xcassets */; };
+		BCA6AB0F1E65394500D49B4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA6AB0D1E65394500D49B4C /* LaunchScreen.storyboard */; };
+		BCA6AB181E65397B00D49B4C /* checkedBox.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA6AB161E65397B00D49B4C /* checkedBox.png */; };
+		BCA6AB191E65397B00D49B4C /* uncheckedBox.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA6AB171E65397B00D49B4C /* uncheckedBox.png */; };
+		BCA6AB1B1E6539C800D49B4C /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6AB1A1E6539C800D49B4C /* CheckBox.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCA6AB011E65394500D49B4C /* CheckboxBadiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckboxBadiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA6AB041E65394500D49B4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCA6AB061E65394500D49B4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCA6AB091E65394500D49B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCA6AB0B1E65394500D49B4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCA6AB0E1E65394500D49B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCA6AB101E65394500D49B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA6AB161E65397B00D49B4C /* checkedBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkedBox.png; sourceTree = "<group>"; };
+		BCA6AB171E65397B00D49B4C /* uncheckedBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheckedBox.png; sourceTree = "<group>"; };
+		BCA6AB1A1E6539C800D49B4C /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA6AAFE1E65394500D49B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCA6AAF81E65394500D49B4C = {
+			isa = PBXGroup;
+			children = (
+				BCA6AB031E65394500D49B4C /* CheckboxBadiOS */,
+				BCA6AB021E65394500D49B4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA6AB021E65394500D49B4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA6AB011E65394500D49B4C /* CheckboxBadiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA6AB031E65394500D49B4C /* CheckboxBadiOS */ = {
+			isa = PBXGroup;
+			children = (
+				BCA6AB041E65394500D49B4C /* AppDelegate.swift */,
+				BCA6AB061E65394500D49B4C /* ViewController.swift */,
+				BCA6AB161E65397B00D49B4C /* checkedBox.png */,
+				BCA6AB171E65397B00D49B4C /* uncheckedBox.png */,
+				BCA6AB081E65394500D49B4C /* Main.storyboard */,
+				BCA6AB1A1E6539C800D49B4C /* CheckBox.swift */,
+				BCA6AB0B1E65394500D49B4C /* Assets.xcassets */,
+				BCA6AB0D1E65394500D49B4C /* LaunchScreen.storyboard */,
+				BCA6AB101E65394500D49B4C /* Info.plist */,
+			);
+			path = CheckboxBadiOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA6AB001E65394500D49B4C /* CheckboxBadiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA6AB131E65394500D49B4C /* Build configuration list for PBXNativeTarget "CheckboxBadiOS" */;
+			buildPhases = (
+				BCA6AAFD1E65394500D49B4C /* Sources */,
+				BCA6AAFE1E65394500D49B4C /* Frameworks */,
+				BCA6AAFF1E65394500D49B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckboxBadiOS;
+			productName = CheckboxBadiOS;
+			productReference = BCA6AB011E65394500D49B4C /* CheckboxBadiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA6AAF91E65394500D49B4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = PaulJAdam;
+				TargetAttributes = {
+					BCA6AB001E65394500D49B4C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VJ8862HM4M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BCA6AAFC1E65394500D49B4C /* Build configuration list for PBXProject "CheckboxBadiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCA6AAF81E65394500D49B4C;
+			productRefGroup = BCA6AB021E65394500D49B4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA6AB001E65394500D49B4C /* CheckboxBadiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA6AAFF1E65394500D49B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA6AB0F1E65394500D49B4C /* LaunchScreen.storyboard in Resources */,
+				BCA6AB181E65397B00D49B4C /* checkedBox.png in Resources */,
+				BCA6AB191E65397B00D49B4C /* uncheckedBox.png in Resources */,
+				BCA6AB0C1E65394500D49B4C /* Assets.xcassets in Resources */,
+				BCA6AB0A1E65394500D49B4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA6AAFD1E65394500D49B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA6AB071E65394500D49B4C /* ViewController.swift in Sources */,
+				BCA6AB051E65394500D49B4C /* AppDelegate.swift in Sources */,
+				BCA6AB1B1E6539C800D49B4C /* CheckBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCA6AB081E65394500D49B4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA6AB091E65394500D49B4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCA6AB0D1E65394500D49B4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA6AB0E1E65394500D49B4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA6AB111E65394500D49B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCA6AB121E65394500D49B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA6AB141E65394500D49B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VJ8862HM4M;
+				INFOPLIST_FILE = CheckboxBadiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PaulJAdam.CheckboxBadiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BCA6AB151E65394500D49B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VJ8862HM4M;
+				INFOPLIST_FILE = CheckboxBadiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PaulJAdam.CheckboxBadiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA6AAFC1E65394500D49B4C /* Build configuration list for PBXProject "CheckboxBadiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA6AB111E65394500D49B4C /* Debug */,
+				BCA6AB121E65394500D49B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA6AB131E65394500D49B4C /* Build configuration list for PBXNativeTarget "CheckboxBadiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA6AB141E65394500D49B4C /* Debug */,
+				BCA6AB151E65394500D49B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA6AAF91E65394500D49B4C /* Project object */;
+}
